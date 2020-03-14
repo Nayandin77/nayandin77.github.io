@@ -81,18 +81,29 @@ body {
     opacity: 1.0;
 }
 
+.bio {
+    color: #ffffff;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: large;
+    font-size: 22px;
+    border-bottom: #aaaaaa 1px solid;
+
+}
+
 .repos {
     color: #ffffff;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-family: "Lucida Console", Monaco, monospace;
-    font-size: large;
+    font-size: 18px;
 }
 
 .table {
     width: 75%;
-    border: #ffffff 1px solid;
     margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
@@ -105,10 +116,45 @@ tr {
 }
 
 td {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 22px;
+    text-align: center;
     border: #ffffff 1px solid;
     height: 50px;
-    background: #aaaaaa;
+    width: 33%;
+    color: #ffffff;
+    background: #cccccc;
     padding: 5%;
+    opacity: 0.5;
 }
+
+td:hover {
+    opacity: 1.0;
+}
+
+/* unvisited link */
+a:link {
+    color: #ffffff;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #ffffff;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #000000;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0a015c;
+  }
+
+  a {
+      text-decoration: none;
+  }
+  
   
 
